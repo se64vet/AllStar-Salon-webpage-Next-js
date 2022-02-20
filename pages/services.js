@@ -10,8 +10,8 @@ const services = () => {
       <div className="text-center mt-5">
         <h3 className="font-libre fs-1 text-light">Services</h3>
         <p className="font-mali fst-italic">
-          "Our customers should be able to fully express themselves with their
-          new look."
+          &quot; Our customers should be able to fully express themselves with
+          their new look.&quot;
         </p>
       </div>
 

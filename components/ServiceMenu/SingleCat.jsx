@@ -14,7 +14,7 @@ const SingleCat = ({ category, catImg, catName }) => {
         }}
       >
         <h3
-          className="text-white bg-dark p-3 text-center shadow"
+          className="text-white bg-warning p-3 text-center shadow"
           style={{ "--bs-bg-opacity": ".4" }}
         >
           {catName}

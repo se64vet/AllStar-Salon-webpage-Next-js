@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import {
   Cover,
@@ -47,16 +48,20 @@ export default function Home() {
           imgUrl={"/portrait/19.jpg"}
         />
         {/* // client comment */}
-        <img
-          src={windowSize < 400 ? "/portrait/2.jpg" : "/landscape/22.jpg"}
-          alt="customer reviews"
-          className="img-fluid w-lg-50"
-        />
+        <div className="d-block">
+          <Image
+            width={windowSize < 400 ? "400" : "1280"}
+            height={windowSize < 400 ? "600" : "720"}
+            src={windowSize < 400 ? "/portrait/2.jpg" : "/landscape/22.jpg"}
+            alt="customer reviews"
+            className="mx-auto"
+          />
+        </div>
         <FeedBack />
 
         {/* address */}
         <Address
-          address={"At : 8373 Kingston Pike, Knoxville, TN"}
+          address={"8373 Kingston Pike, Knoxville, TN"}
           tel={"Tel : (865) 693-4776"}
           openingHrs={"Hours : 9:30AM - 7:30PM"}
         />

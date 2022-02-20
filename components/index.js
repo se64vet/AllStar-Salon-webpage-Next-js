@@ -1,5 +1,4 @@
 export { default as Hero } from "./Hero/Hero";
-export { default as Album } from "./Album/Album";
 export { default as Cover } from "./Cover/Cover";
 export { default as Feature } from "./Feature/Feature";
 export { default as FeedBack } from "./FeedBack/FeedBack";

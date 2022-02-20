@@ -17,7 +17,7 @@ const Header = ({ fix }) => {
           <nav className="nav nav-masthead gap-5 justify-content-center mt-3 ">
             <a
               className="nav-link text-white font-libre fst-italic"
-              href="#review"
+              href="/#aboutUs"
             >
               Why Us?
             </a>
