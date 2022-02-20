@@ -6,13 +6,13 @@ const Header = ({ fix }) => {
       <header
         className={
           (fix ? "fixed-top" : "") +
-          " pt-5 pb-2 pt-lg-3 px-3 container-fluid font-mali"
+          " pt-2 pb-2 pt-lg-3 px-3 container-fluid font-mali"
         }
         style={{ background: "#683A15" }}
       >
         <div className="d-flex flex-column justify-content-center align-items-center">
           <Link href="/">
-            <h1 className="font-shi fs-1 text-light">All Star Nail Salon</h1>
+            <h1 className="font-shi fs-1 text-danger">All Star Nail Salon</h1>
           </Link>
           <nav className="nav nav-masthead gap-5 justify-content-center mt-3 ">
             <Link href="/#aboutUs">
