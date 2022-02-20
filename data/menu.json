@@ -1,0 +1,82 @@
+{
+  "Natural_Manicure": [
+    {
+      "name": "Manicure",
+      "price": "15"
+    },
+    {
+      "name": "Color Polish",
+      "price": "10"
+    },
+    {
+      "name": "French Polish",
+      "price": "12"
+    }
+  ],
+  "Natural_Pedicure": [
+    {
+      "name": "Classic Pedicure",
+      "price": "30"
+    },
+    {
+      "name": "Deluxe Pedicure",
+      "price": "35"
+    },
+    {
+      "name": "All Star Pedicure",
+      "price": "45"
+    },
+    {
+      "name": "Polish Pedicure",
+      "price": "12"
+    },
+    {
+      "name": "Polish French Pedicure",
+      "price": "15"
+    }
+  ],
+  "Artificial_Nails": [
+    {
+      "name": "Acrylic Full-set",
+      "price": "28"
+    },
+    {
+      "name": "Acrylic Fill-in",
+      "price": "20"
+    },
+    {
+      "name": "Pink&White Full-set",
+      "price": "48"
+    },
+    {
+      "name": "Pink&White Fill-in",
+      "price": "25-38"
+    },
+    {
+      "name": "Gel color Full-set",
+      "price": "43"
+    },
+    {
+      "name": "Gel color Fill-in",
+      "price": "33"
+    }
+  ],
+  "Other_Services": [
+    {
+      "name": "Gel Manicure",
+      "price": "25"
+    },
+    {
+      "name": "Dipped Powder",
+      "price": "35-40"
+    },
+    {
+      "name": "French Tip w any services",
+      "price": "5"
+    },
+    {
+      "name": "Nail design",
+      "price": "5 for 2"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+.list{
+    list-style: none;
+}
+.listItem{
+    display: inline;
+    font-size: 1.125rem;
+}
