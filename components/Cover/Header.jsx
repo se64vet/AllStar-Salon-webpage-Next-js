@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 const Header = ({ fix }) => {
   return (
     <>
@@ -11,28 +11,28 @@ const Header = ({ fix }) => {
         style={{ background: "#683A15" }}
       >
         <div className="d-flex flex-column justify-content-center align-items-center">
-          <a href="/">
+          <Link href="/">
             <h1 className="font-shi fs-1 text-light">All Star Nail Salon</h1>
-          </a>
+          </Link>
           <nav className="nav nav-masthead gap-5 justify-content-center mt-3 ">
-            <a
+            <Link
               className="nav-link text-white font-libre fst-italic"
               href="/#aboutUs"
             >
               Why Us?
-            </a>
-            <a
+            </Link>
+            <Link
               className="nav-link text-white font-libre fst-italic"
               href="/services"
             >
               Services
-            </a>
-            <a
+            </Link>
+            <Link
               className="nav-link text-white font-libre fst-italic"
               href="tel:865-693-4776"
             >
               Book now
-            </a>
+            </Link>
           </nav>
         </div>
       </header>

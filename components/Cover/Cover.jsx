@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import styles from "../../styles/Cover.module.css";
+import Link from "next/link";
 const Cover = () => {
   const bgProps = {
     backgroundPosition: "center",
@@ -37,18 +38,18 @@ const Cover = () => {
           </p>
 
           <p className="d-flex flex-column justify-content-center align-items-center gap-2">
-            <a
+            <Link
               href="tel:865-693-4776"
               className="btn btn-md py-1 px-3 btn-dark font-libre text-white mx-1 shadow"
             >
               Book now
-            </a>
-            <a
+            </Link>
+            <Link
               href="/services"
               className="btn btn-md py-1 px-2 btn-outline bg-light font-libre text-white mx-1 shadow"
             >
               Our Services
-            </a>
+            </Link>
           </p>
         </div>
       </div>
