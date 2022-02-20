@@ -38,17 +38,15 @@ const Cover = () => {
           </p>
 
           <p className="d-flex flex-column justify-content-center align-items-center gap-2">
-            <Link
-              href="tel:865-693-4776"
-              className="btn btn-md py-1 px-3 btn-dark font-libre text-white mx-1 shadow"
-            >
-              Book now
+            <Link href="tel:865-693-4776">
+              <span className="btn btn-md py-1 px-3 btn-dark font-libre text-white mx-1 shadow">
+                Book now
+              </span>
             </Link>
-            <Link
-              href="/services"
-              className="btn btn-md py-1 px-2 btn-outline bg-light font-libre text-white mx-1 shadow"
-            >
-              Our Services
+            <Link href="/services">
+              <span className="btn btn-md py-1 px-2 btn-outline bg-light font-libre text-white mx-1 shadow">
+                Our Services
+              </span>
             </Link>
           </p>
         </div>

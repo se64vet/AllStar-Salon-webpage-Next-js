@@ -15,23 +15,20 @@ const Header = ({ fix }) => {
             <h1 className="font-shi fs-1 text-light">All Star Nail Salon</h1>
           </Link>
           <nav className="nav nav-masthead gap-5 justify-content-center mt-3 ">
-            <Link
-              className="nav-link text-white font-libre fst-italic"
-              href="/#aboutUs"
-            >
-              Why Us?
+            <Link href="/#aboutUs">
+              <span className="nav-link text-white font-libre fst-italic">
+                Why Us?
+              </span>
             </Link>
-            <Link
-              className="nav-link text-white font-libre fst-italic"
-              href="/services"
-            >
-              Services
+            <Link href="/services">
+              <span className="nav-link text-white font-libre fst-italic">
+                Services
+              </span>
             </Link>
-            <Link
-              className="nav-link text-white font-libre fst-italic"
-              href="tel:865-693-4776"
-            >
-              Book now
+            <Link href="tel:865-693-4776">
+              <span className="nav-link text-white font-libre fst-italic">
+                Book now
+              </span>
             </Link>
           </nav>
         </div>
