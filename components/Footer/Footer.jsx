@@ -27,7 +27,7 @@ const Footer = () => {
           <div className="col-12 col-md-auto">
             <SectionDetails />
           </div>
-          <div className="col-12 col-md-auto">
+          <div className="col-12 col-md-auto text-center">
             <img
               className="img-fluid"
               src="/portrait/9.jpg"

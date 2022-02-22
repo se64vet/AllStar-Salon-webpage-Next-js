@@ -52,7 +52,7 @@ export default function Home() {
           <Image
             width={windowSize < 400 ? "400" : "1280"}
             height={windowSize < 400 ? "600" : "720"}
-            src={windowSize < 400 ? "/portrait/2.jpg" : "/landscape/22.jpg"}
+            src={windowSize < 400 ? "/portrait/6.jpg" : "/landscape/22.jpg"}
             alt="customer reviews"
             className="mx-auto"
           />
