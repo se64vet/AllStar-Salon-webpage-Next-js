@@ -38,7 +38,7 @@ const Services = () => {
       </div>
       <div className="text-center mt-5">
         <a
-          href="#"
+          href="/services"
           className="btn btn-dark text-danger font-libre shadow py-2 px-3 "
         >
           See our full services
