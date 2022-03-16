@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import SingleService from "./SingleService";
 
@@ -37,12 +38,12 @@ const Services = () => {
         <SingleService service={services[3]} />
       </div>
       <div className="text-center mt-5">
-        <a
+        <Link
           href="/services"
           className="btn btn-dark text-danger font-libre shadow py-2 px-3 "
         >
           See our full services
-        </a>
+        </Link>
       </div>
     </>
   );

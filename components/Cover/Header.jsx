@@ -11,21 +11,21 @@ const Header = ({ fix }) => {
         style={{ background: "#683A15" }}
       >
         <div className="d-flex flex-column justify-content-center align-items-center">
-          <Link href="/">
+          <Link passHref href="/">
             <h1 className="font-shi fs-1 text-danger">All Star Nail Salon</h1>
           </Link>
           <nav className="nav nav-masthead gap-5 justify-content-center mt-3 ">
-            <Link href="/#aboutUs">
+            <Link passHref href="/#aboutUs">
               <span className="nav-link text-white font-libre fst-italic">
                 Why Us?
               </span>
             </Link>
-            <Link href="/services">
+            <Link passHref href="/services">
               <span className="nav-link text-white font-libre fst-italic">
                 Services
               </span>
             </Link>
-            <Link href="tel:865-693-4776">
+            <Link passHref href="tel:865-693-4776">
               <span className="nav-link text-white font-libre fst-italic">
                 Book now
               </span>
