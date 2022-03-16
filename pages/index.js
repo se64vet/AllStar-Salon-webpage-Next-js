@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from "next/head";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import {
@@ -7,9 +7,9 @@ import {
   FeedBack,
   Footer,
   SectionTitle,
+  Gallery,
 } from "../components";
 import Address from "../components/Address/Address";
-import HeroWithForm from "../components/Hero/HeroWithForm";
 import LeftHero from "../components/Hero/LeftHero";
 import Services from "../components/Services/Services";
 
@@ -48,14 +48,18 @@ export default function Home() {
           imgUrl={"/portrait/19.jpg"}
         />
         {/* // client comment */}
-        <div className="d-block">
-          <Image
+        <div className="d-flex flex-column justify-content-center align-items-center">
+          {/* <Image
             width={windowSize < 400 ? "400" : "1280"}
             height={windowSize < 400 ? "600" : "720"}
             src={windowSize < 400 ? "/portrait/6.jpg" : "/landscape/22.jpg"}
             alt="customer reviews"
             className="mx-auto"
-          />
+          /> */}
+          <h3 className="font-libre fw-bold text-dark text-decoration-underline mb-3">
+            Our recent works
+          </h3>
+          <Gallery />
         </div>
         <FeedBack />
 
