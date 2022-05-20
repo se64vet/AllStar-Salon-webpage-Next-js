@@ -47,20 +47,15 @@ export default function Home() {
           }
           imgUrl={"/portrait/19.jpg"}
         />
-        {/* // client comment */}
+        {/* // Gallery of works */}
         <div className="d-flex flex-column justify-content-center align-items-center">
-          {/* <Image
-            width={windowSize < 400 ? "400" : "1280"}
-            height={windowSize < 400 ? "600" : "720"}
-            src={windowSize < 400 ? "/portrait/6.jpg" : "/landscape/22.jpg"}
-            alt="customer reviews"
-            className="mx-auto"
-          /> */}
           <h3 className="font-libre fw-bold text-dark text-decoration-underline mb-3">
             Our recent works
           </h3>
           <Gallery />
         </div>
+
+        {/* // client comment */}
         <FeedBack />
 
         {/* address */}

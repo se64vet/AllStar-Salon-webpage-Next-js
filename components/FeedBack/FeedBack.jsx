@@ -1,42 +1,30 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import SingleFeedBack from "./SingleFeedBack";
-
+import feedbacks from '../../data/feedbacks.json'
 const Team = () => {
-  const feedbacks = [
-    {
-      name: "Dj Iko",
-      feedback:
-        "Great prices, very nice staff. I was very happy with my results and experience here,  I will return with family and friends!",
-      stars: 5,
-    },
-    {
-      name: "Jennifer Martin",
-      feedback:
-        "Clean, great pricing, awesome massage/scrub, sweet worker. Will come back.",
-      stars: 5,
-    },
-    {
-      name: "Phyllis Parker",
-      feedback:
-        "This location is my favorite for pedicures. Get the deluxe and you will walk out of there with your legs and feet feeling amazing. They take their time and really pamper your feet. I highly recommend this location.",
-      stars: 5,
-    },
-    {
-      name: "Joanna Martinez",
-      feedback:
-        "Favorite place in Knoxville! They always do a wonderful job, are so kind, and prices are great!",
-      stars: 5,
-    },
-  ];
+  const [reviews, setReviews] = useState([]);
+
+  function getData(dataList, amount=5){
+    amount = amount > dataList.length ? dataList.length : amount;
+    let retrievedData = [];
+    for (let index = 0; index < amount; index++) {
+      retrievedData.push(dataList[index]);
+    }
+    return retrievedData;
+  }
+  useEffect(()=>{
+    setReviews(getData(feedbacks, 5));
+  }, []);
+
   return (
     <div className="container mt-5" id="review">
       <div className=" text-center mx-center m-2">
         <p className="fs-4 font-libre fw-bold text-light">
-          What our customer <br /> saying about us?
+          What our customer <br /> saying about us ?
         </p>
       </div>
       <div className="row justify-content-center align-items-center">
-        {feedbacks.map((feedback, idx) => (
+        {reviews && reviews.map((feedback, idx) => (
           <SingleFeedBack
             key={idx}
             name={feedback.name}

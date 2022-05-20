@@ -1,0 +1,44 @@
+[
+    {
+      "name": "Cute Customer",
+      "feedback":
+        "I went here with my mom and sister yesterday evening, not only were the staff super friendly and knowledgeable, they all did an amazing job with our nails! We accidentally kept them past closing time but they were super nice about it and didn’t seem rushed or bothered. We’ll definitely be back next time we’re in the area! :)",
+      "stars": 5
+    },
+    {
+      "name": "Jill Joyce",
+      "feedback":
+        "Wonderful service and people!  Professional and a lovely environment ❤",
+      "stars": 5
+    },
+    {
+      "name": "A E Jensen",
+      "feedback":
+        "Terrific nail place.  Very professional and very helpful.   I really like them.",
+      "stars": 5
+    },
+    {
+      "name": "Joanna Martinez",
+      "feedback":
+        "Favorite place in Knoxville! They always do a wonderful job, are so kind, and prices are great!",
+      "stars": 5
+    },
+    {
+        "name": "Dj Iko",
+        "feedback":
+          "Great prices, very nice staff. I was very happy with my results and experience here,  I will return with family and friends!",
+        "stars": 5
+      },
+      {
+        "name": "Jennifer Martin",
+        "feedback":
+          "Clean, great pricing, awesome massage/scrub, sweet worker. Will come back.",
+        "stars": 5
+      },
+      {
+        "name": "Phyllis Parker",
+        "feedback":
+          "This location is my favorite for pedicures. Get the deluxe and you will walk out of there with your legs and feet feeling amazing. They take their time and really pamper your feet. I highly recommend this location.",
+        "stars": 5
+      }
+  ]

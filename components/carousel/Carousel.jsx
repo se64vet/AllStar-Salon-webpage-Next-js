@@ -18,8 +18,8 @@ function Gallery() {
       {gallery.map((item, idx) => (
         <Carousel.Item key={idx} style={{ height: "500px", width: "370px" }}>
           <img
-            src={`/gallery/${item.imgUrl}`}
-            alt="our works"
+            src={`/gallery/${item}.webp`}
+            alt="our recently works"
             className="img-fluid"
           />
         </Carousel.Item>

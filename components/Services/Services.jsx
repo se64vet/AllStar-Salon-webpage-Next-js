@@ -32,17 +32,17 @@ const Services = () => {
   return (
     <>
       <div className="row align-items-center justify-content-center gap-5">
-        <SingleService service={services[1]} />
-        <SingleService service={services[0]} />
-        <SingleService service={services[2]} />
-        <SingleService service={services[3]} />
+        {services.map((item, idx)=> 
+          (<SingleService key={idx} service={item}/>)
+        )}
       </div>
       <div className="text-center mt-5">
         <Link
           href="/services"
-          className="btn btn-dark text-danger font-libre shadow py-2 px-3 "
+          
         >
-          See our full services
+          <a className="btn btn-dark text-danger font-libre shadow py-2 px-3 "> See our full services</a>
+          
         </Link>
       </div>
     </>
