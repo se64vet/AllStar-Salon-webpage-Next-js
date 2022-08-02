@@ -52,11 +52,13 @@ export default function Home() {
           <h3 className="font-libre fw-bold text-dark text-decoration-underline mb-3">
             Our recent works
           </h3>
+			<div className="d-flex flex-column justify-content-center align-items-center max-w-2xl w-full overflow-hidden">  
           <Gallery />
         </div>
 
         {/* // client comment */}
-        <FeedBack />
+			  <FeedBack />
+			</div>
 
         {/* address */}
         <Address

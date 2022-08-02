@@ -10,12 +10,7 @@ const Footer = () => {
       <footer className="py-5">
         <div className="row gap-5 justify-content-around">
           <div className="col-12 col-md-auto">
-            <img
-              src="/illustrator/logo.png"
-              alt="logo"
-              width={"100px"}
-              className="bg-white p-1 rounded"
-            />
+			  <h3>ALL STAR NAILS</h3>
             <p>
               <span>Address: </span> 8373 Kingston Pike # 300, Knoxville, TN
               37919
