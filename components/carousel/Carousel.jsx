@@ -25,7 +25,7 @@ function Gallery() {
       onSelect={handleSelect}
     >
       {gallery.map((item, idx) => (
-        <Carousel.Item key={idx} style={{ height: "500px", width: "370px" }}>
+        <Carousel.Item key={idx} style={{ height: "500px", width: "370px" }} interval={2000}>
 			<div >
           <img
             src={`/gallery/${item}.webp`}
