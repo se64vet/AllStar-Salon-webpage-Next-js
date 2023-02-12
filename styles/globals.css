@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;1,100;1,200&family=Italianno&family=Libre+Baskerville:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;1,100;1,200&family=Italianno&family=Libre+Baskerville:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@200;300&family=Seaweed+Script&display=swap');
 :root{
   font-size: 16px;
 }
@@ -20,7 +21,8 @@ a {
 }
 
 /* ultils */
-.font-mali{
+/* old typeface */
+/* .font-mali{
   font-family: 'Archivo', sans-serif !important;
 }
 .font-shi{
@@ -28,4 +30,15 @@ a {
 }
 .font-libre{
   font-family: 'Libre Baskerville', serif !important;
+} */
+
+/* valentine typeface */
+.font-mali{
+  font-family: 'Poppins', sans-serif !important;
+}
+.font-shi{
+  font-family: 'Seaweed Script', cursive !important;
+}
+.font-libre{
+  font-family: 'Abril Fatface', cursive !important;
 }

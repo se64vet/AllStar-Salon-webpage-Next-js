@@ -6,16 +6,16 @@ const SingleCat = ({ category, catImg, catName }) => {
       <div
         className="col-12 col-lg-4 mb-4 mb-lg-0"
         style={{
-          padding: "2rem !important",
+          padding: "0rem !important",
           background: catImg,
           backgroundSize: "cover !important",
           backgroundPosition: "center",
-          backgroundRepeat: "repeat",
+          backgroundRepeat: "no-repeat",
         }}
       >
         <h3
           className="text-white bg-warning p-3 text-center shadow"
-          style={{ "--bs-bg-opacity": ".4" }}
+          style={{ "--bs-bg-opacity": ".3", "backdropFilter": "blur(2px)" }}
         >
           {catName}
         </h3>
@@ -26,16 +26,19 @@ const SingleCat = ({ category, catImg, catName }) => {
             className=" row justify-content-center align-items-center"
             key={idx}
           >
-            <div className={styles.detail_item + " w-75 p-1 gap-2"}>
+            <div className={styles.detail_item + " w-75 p-1 gap-2 "}>
               <span
-                className={styles.detail_name + " fs-6 font-libre text-dark  "}
+                className={styles.detail_name + " fs-6 font-libre text-dark"}
               >
                 {item.name}
               </span>
-              <span className={styles.detail_dots}></span>
+
+              {/* price removed according to client request */}
+              {/* <span className={styles.detail_dots}></span>
               <span className={styles.detail_price + " fs-6 font-libre"}>
                 <span className="current">{`$${item.price}`}</span>
-              </span>
+              </span> */}
+
             </div>
             <div></div>
           </div>

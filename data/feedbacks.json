@@ -1,6 +1,6 @@
 [
     {
-      "name": "Cute Customer",
+      "name": "Anonymus",
       "feedback":
         "I went here with my mom and sister yesterday evening, not only were the staff super friendly and knowledgeable, they all did an amazing job with our nails! We accidentally kept them past closing time but they were super nice about it and didn’t seem rushed or bothered. We’ll definitely be back next time we’re in the area! :)",
       "stars": 5
@@ -40,5 +40,36 @@
         "feedback":
           "This location is my favorite for pedicures. Get the deluxe and you will walk out of there with your legs and feet feeling amazing. They take their time and really pamper your feet. I highly recommend this location.",
         "stars": 5
+      },
+      {
+        "name": "Enisa Dzanic Denic",
+        "feedback":
+          "My first visit was today and I had no appointment. I was seated in a pedicure chair very quickly although they looked pretty busy. My pedicure was great and relaxing done by sweet lady whom I didn’t catch name. My manicure was done by Anna and it was perfect just the way I wanted.",
+        "stars": 5
+      },
+      {
+        "name": "Celia Ball",
+        "feedback":
+          "The best pedicure in Knoxville! Get the All-Star ($45 as of 10/3/22). My regular polish pedis last a minimum of 6 weeks and the pampering is divine! Very clean shop and very friendly & accommodating staff.",
+        "stars": 5
+      },
+      {
+        "name": "Connie Caple",
+        "feedback":
+          "Best pedicure in town.  And that massage chair is incredible.  😌I've been a customer since 1993.  ❤",
+        "stars": 5
+      },
+      {
+        "name": "Ashley Matthews",
+        "feedback":
+          "Just got orange/pink/white swirl acrylic for summer and love it! The lady was super communicative and followed the picture I showed her exactly. Also cost me way less than other places around Knoxville",
+        "stars": 5
+      },
+      {
+        "name": "Sharon King",
+        "feedback":
+          "Loved it. The people are awesome and the atmosphere was very relaxing.  It was the most relaxing pedicure I've ever had... I highly recommend giving them a visit...",
+        "stars": 5
       }
+
   ]

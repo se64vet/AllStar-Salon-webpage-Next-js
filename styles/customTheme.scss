@@ -1,12 +1,25 @@
 $theme-colors: (
+  // valentines color scheme
   'primary': #d8e2dc,
   'secondary': #fec89a,
   'success': #d4a373,
   'info': #f28482,
-  'warning': #353535,
-  'danger': #ffe96b,
-  'light': #C1AF46,
-  'dark': #532e10,
+  'warning': #ffb3c9,
+  'danger': #fcf4f8,
+  'light': #add0ef,
+  'dark': #ff97cc,
+  'grey': #323232,
 );
 @import '/node_modules/bootstrap/scss/bootstrap.scss';
 @import './globals.css';
+
+// old color scheme
+
+// 'primary': #d8e2dc,
+// 'secondary': #fec89a,
+// 'success': #d4a373,
+// 'info': #f28482,
+// 'warning': #353535,
+// 'danger': #ffe96b,
+// 'light': #C1AF46,
+// 'dark': #532e10,

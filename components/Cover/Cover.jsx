@@ -11,7 +11,7 @@ const Cover = () => {
   return (
     <div
       className={styles.bg_container + " d-flex vh-100 text-center"}
-      style={{ backgroundImage: 'url("/portrait/5.jpg")' }}
+      style={{ backgroundImage: 'url("/portrait/8.jpg")' }}
     >
       <div
         className={
@@ -21,18 +21,18 @@ const Cover = () => {
       >
         <Header fix={true} />
         <div
-          className="px-2 py-5 rounded bg-warning"
-          style={{ "--bs-bg-opacity": "0.1" }}
+          className="px-2 py-5 bg-warning"
+          style={{ "--bs-bg-opacity": "0.05", "borderRadius": "10px" }}
         >
           <h2
-            className="text-white font-libre fs-1"
-            style={{ textShadow: "1px 1px 2px gray" }}
+            className="text-grey font-libre fs-1"
+            style={{ textShadow: "0px 0px 0px gray" }}
           >
             Essence of natural beauty
           </h2>
           <p
-            className="lead text-white py-3"
-            style={{ textShadow: "1px 1px 2px gray" }}
+            className="lead text-grey font-mali py-3"
+            style={{ textShadow: "0px 0px 0px #676767" }}
           >
             Enjoy the soothing experience
           </p>
@@ -45,7 +45,7 @@ const Cover = () => {
             </Link>
             <Link passHref href="/services">
               <span className="btn btn-md py-1 px-2 btn-outline bg-light font-libre text-white mx-1 shadow">
-                Our Services
+                Our services
               </span>
             </Link>
           </p>

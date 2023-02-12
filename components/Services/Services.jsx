@@ -7,25 +7,25 @@ const Services = () => {
     {
       name: "Manicure",
       desc: "Stimmulate nail growth and soften dry, dull skin.",
-      imgSrc: "/illustrator/sym.png",
+      imgSrc: "/illustrator/manicure-colored.png",
       altText: "Manicure service Icon",
     },
     {
       name: "Pedicure",
       desc: "Provide full restoration for your nails with extra polishing.",
-      imgSrc: "/illustrator/sym2.png",
+      imgSrc: "/illustrator/pedicure-colored.png",
       altText: "Pedicure service Icon",
     },
     {
       name: "Nail Art",
       desc: "Stunning and sustainable design for your nails.",
-      imgSrc: "/illustrator/sym3.png",
+      imgSrc: "/illustrator/nailart-colored.png",
       altText: "Nail Art service Icon",
     },
     {
       name: "Waxing",
       desc: "Treatments for smoother skin area.",
-      imgSrc: "/illustrator/sym4.png",
+      imgSrc: "/illustrator/wax-colored.png",
       altText: "Waxing service Icon",
     },
   ];

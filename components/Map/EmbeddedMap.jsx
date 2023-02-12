@@ -1,6 +1,8 @@
 import React from "react";
 
-const EmbeddedMap = ({ src }) => {
+const EmbeddedMap = () => {
+  const map =
+  "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12923.795614560004!2d-84.0582226!3d35.9237507!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbc97be0665e11f1d!2sAll%20Star%20Nails!5e0!3m2!1sde!2sus!4v1644092287988!5m2!1sde!2sus";
   return (
     <div className="container overflow-hidden d-flex justify-content-center align-items-center">
       <div className="mapouter">
@@ -9,11 +11,7 @@ const EmbeddedMap = ({ src }) => {
             width={1080}
             height={400}
             id="gmap_canvas"
-            src={src}
-            frameBorder={0}
-            scrolling="no"
-            marginHeight={0}
-            marginWidth={0}
+            src={map}
           />
           <a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/">
             divi discount
