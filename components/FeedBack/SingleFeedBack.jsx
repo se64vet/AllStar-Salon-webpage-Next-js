@@ -10,7 +10,7 @@ const SingleFeedBack = ({ name, feedback, stars }) => {
         >
           &#8220;
         </p>
-        <small className="fst-italic text-white font-libre">{`" ${feedback} "`}</small>
+        <small className="text-white font-mali">{`" ${feedback} "`}</small>
 
         <div className="my-2">
           {Array(stars)

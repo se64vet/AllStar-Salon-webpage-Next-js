@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 const Gallery = () => {
     const [id,setId]= useState([])
     let start = 0;
-    const maxId = 9;
+    const maxId = 7;
     const setUpIds = ()=>{
         let curId = Math.floor(Math.random()*15 + 1)       
         let tempIds = []
@@ -14,7 +14,7 @@ const Gallery = () => {
     }
     useEffect(()=>{ 
         // setUpIds();
-        setId([5,7,12,13,14,15,1,9,16])
+        setId([5,7,12,13,14,15,16])
     },[])
   return (
     <>
@@ -42,17 +42,11 @@ const Gallery = () => {
             </div>
             
             <div className='row'>
-                <div className='col-3 text-center'>
+                <div className='col-6 text-center'>
                     <img src={`/gallery/${id[5]}.webp`} alt="recent work arts" className="img-fluid"/>
                 </div>
-                <div className='col-3 text-center'>
+                <div className='col-6 text-center'>
                     <img src={`/gallery/${id[6]}.webp`} alt="recent work arts" className="img-fluid"/>
-                </div>
-                <div className='col-3 text-center'>
-                    <img src={`/gallery/${id[7]}.webp`} alt="recent work arts" className="img-fluid"/>
-                </div>
-                <div className='col-3 text-center'>
-                    <img src={`/gallery/${id[8]}.webp`} alt="recent work arts" className="img-fluid"/>
                 </div>
             </div>
         </div>
