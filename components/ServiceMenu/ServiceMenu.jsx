@@ -14,25 +14,25 @@ const ServiceMenu = () => {
     <div className="mx-auto container py-5">
       {/* manicures */}
       <SingleCat
-        catImg={"url('/landscape/22.jpg')"}
+        catImg={"/illustrator/manicure-colored.png"}
         catName={"Natural Manicure"}
         category={Natural_Manicure}
       />
       <div className="my-5"></div>
       <SingleCat
-        catImg={"url('/landscape/20.jpg')"}
+        catImg={"/illustrator/pedicure-colored.png"}
         catName={"Natural Pedicure"}
         category={Natural_Pedicure}
       />
       <div className="my-5"></div>
       <SingleCat
-        catImg={"url('/landscape/7.jpg')"}
+        catImg={"/illustrator/nailart-colored.png"}
         catName={"Artificial Nails"}
         category={Artificial_Nails}
       />
       <div className="my-5"></div>
       <SingleCat
-        catImg={"url('/landscape/4.jpg')"}
+        catImg={"/illustrator/wax-colored.png"}
         catName={"Other Services"}
         category={Other_Services}
       />

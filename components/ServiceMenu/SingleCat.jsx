@@ -3,24 +3,16 @@ import styles from "../../styles/Services.module.css";
 const SingleCat = ({ category, catImg, catName }) => {
   return (
     <div className="row mt-4">
-      <div
-        className="col-12 col-lg-4 mb-4 mb-lg-0"
-        style={{
-          padding: "0rem !important",
-          background: catImg,
-          backgroundSize: "cover !important",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-        }}
-      >
-        <h3
-          className="text-white bg-warning p-3 text-center shadow"
-          style={{ "--bs-bg-opacity": ".3", "backdropFilter": "blur(2px)" }}
-        >
-          {catName}
+      <div className="col-11 col-lg-4 mx-auto mb-2 bg-light">
+        <h3 className="text-white p-3 font-libre text-center">
+          {catName}  
         </h3>
       </div>
-      <div className="col-12 col-lg-8 my-auto">
+      <div className="col-10 mx-auto my-2 text-center">
+        <img src={catImg} alt="category icon"  width={30}/>   
+      </div>
+
+      <div className="col-12 my-auto">
         {category.map((item, idx) => (
           <div
             className=" row justify-content-center align-items-center"
@@ -28,7 +20,7 @@ const SingleCat = ({ category, catImg, catName }) => {
           >
             <div className={styles.detail_item + " w-75 p-1 gap-2 "}>
               <span
-                className={styles.detail_name + " fs-6 font-libre text-dark"}
+                className={styles.detail_name + " fs-6 font-mali text-dark fw-bold"}
               >
                 {item.name}
               </span>
